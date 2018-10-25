@@ -1,36 +1,16 @@
-# cortex_skeleton
+# Esqueleto de proyecto para usar Cortex
 
-FIXME: description
+Este es el proyecto completo para empezar a utilizar Cortex en Clojure.
 
 ## Installation
-
-Download from http://example.com/FIXME.
-
+* Tener Leiningen instalado : [Mac](https://lispcast.com/clojure-mac/) y [Windows](https://leiningen.org)
+* Tener una tarjeta grafica NVIDIA e instalar: https://developer.nvidia.com/cuda-downloads
 ## Usage
 
-FIXME: explanation
+Este proyecto unicamente instala las librerias requeridas para Cortex y con ellas, abre un CSV de Spam, esto se hace con:
 
-    $ java -jar cortex_skeleton-0.1.0-standalone.jar [args]
+` lein run `
 
-## Options
+O si se quiere correr como un jar, se puede usar:
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+` java -jar cortex_skeleton-0.1.0-standalone.jar [args] `
